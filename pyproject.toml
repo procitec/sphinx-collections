@@ -81,7 +81,8 @@ force-sort-within-sections = true
 legacy_tox_ini = """
 [tox]
 env_list =
-    py{310,311,312,313}-sphinx{74,82}
+    py310-sphinx74
+    py{311,312,313}-sphinx{74,82}
     docs
     linkcheck
 requires =
